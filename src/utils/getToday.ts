@@ -1,0 +1,1 @@
+export const getToday = () => Intl.DateTimeFormat('pr-br').format(new Date());
